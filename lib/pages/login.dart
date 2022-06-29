@@ -11,7 +11,6 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
-    late String Username, Password;
 
     return SafeArea(
       child: Container(
@@ -41,9 +40,9 @@ class LoginScreen extends StatelessWidget {
               )
             ],
           ),
-          SizedBox(
-            height: 20,
-          ),
+          // SizedBox(
+          //   height: 20,
+          // ),
           Expanded(
             child: Dialog(
               child: TextFormField(
