@@ -5,8 +5,6 @@ import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:provider/provider.dart';
 import 'package:task_1/pages/register.dart';
 
-import '../widgets/custome_textfield.dart';
-
 class LoginScreen extends StatelessWidget {
   static String id = 'loginscreen';
 

@@ -4,8 +4,6 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:provider/provider.dart';
 
-import '../widgets/custome_textfield.dart';
-
 
 
 class RegisterScreen extends StatelessWidget {
